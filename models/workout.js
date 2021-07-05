@@ -1,15 +1,21 @@
 const { model, Schema } = require('mongoose')
 
 const Workout = new Schema({
-  day: Date,
+  day: { type: Date, default: () => new Date() },
   exercises: [{
-    type: String,
-    name: String,
-    duration: Number,
+    type: { type: String },
+    name: { type: String },
+    duration: { type: Number },
     weight: Number,
     reps: Number,
-    sets: Number
+    sets: Number, 
+    distance: Number
   }]
-})
+}, 
+  {
+    toJSON: {
+      virtuals: true,
+    },
+  })
 
 module.exports = model('Workout', Workout)
