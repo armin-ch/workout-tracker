@@ -8,10 +8,10 @@ const Workout = new Schema({
     duration: { type: Number },
     weight: Number,
     reps: Number,
-    sets: Number, 
+    sets: Number,
     distance: Number
   }]
-}, 
+},
   {
     toJSON: {
       virtuals: true,
