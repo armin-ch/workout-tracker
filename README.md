@@ -19,3 +19,5 @@ This app uses MongoDB to store and retrieve data from the cloud database.
 ## Deployment
 
 This app is deployed to Heroku. Click [here](https://gentle-castle-42296.herokuapp.com/) to be redirected to the deployed site.
+
+## Screeshots
