@@ -23,3 +23,7 @@ This app is deployed to Heroku. Click [here](https://gentle-castle-42296.herokua
 ## Screeshots
 
 ![screenshot](./Screenshot1.png)
+
+![screenshot](./Screenshot2.png)
+
+![screenshot](./Screenshot3.png)
